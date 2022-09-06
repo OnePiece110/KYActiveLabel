@@ -13,6 +13,8 @@
 		3D76C39F28C6EFA900A6CD71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D76C39D28C6EFA900A6CD71 /* Main.storyboard */; };
 		3D76C3A128C6EFAA00A6CD71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D76C3A028C6EFAA00A6CD71 /* Assets.xcassets */; };
 		3D76C3A428C6EFAA00A6CD71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D76C3A228C6EFAA00A6CD71 /* LaunchScreen.storyboard */; };
+		3D76C3AE28C6EFB300A6CD71 /* KYActiveLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D76C3AC28C6EFB300A6CD71 /* KYActiveLabel.swift */; };
+		3D76C3AF28C6EFB300A6CD71 /* KYFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D76C3AD28C6EFB300A6CD71 /* KYFormatting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3D76C3A028C6EFAA00A6CD71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D76C3A328C6EFAA00A6CD71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D76C3A528C6EFAA00A6CD71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D76C3AC28C6EFB300A6CD71 /* KYActiveLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYActiveLabel.swift; sourceTree = "<group>"; };
+		3D76C3AD28C6EFB300A6CD71 /* KYFormatting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYFormatting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +63,22 @@
 				3D76C39728C6EFA900A6CD71 /* AppDelegate.swift */,
 				3D76C39928C6EFA900A6CD71 /* SceneDelegate.swift */,
 				3D76C39B28C6EFA900A6CD71 /* ViewController.swift */,
+				3D76C3AB28C6EFB300A6CD71 /* Core */,
 				3D76C39D28C6EFA900A6CD71 /* Main.storyboard */,
 				3D76C3A028C6EFAA00A6CD71 /* Assets.xcassets */,
 				3D76C3A228C6EFAA00A6CD71 /* LaunchScreen.storyboard */,
 				3D76C3A528C6EFAA00A6CD71 /* Info.plist */,
 			);
 			path = KYActiveLabel;
+			sourceTree = "<group>";
+		};
+		3D76C3AB28C6EFB300A6CD71 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3D76C3AC28C6EFB300A6CD71 /* KYActiveLabel.swift */,
+				3D76C3AD28C6EFB300A6CD71 /* KYFormatting.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D76C3AF28C6EFB300A6CD71 /* KYFormatting.swift in Sources */,
 				3D76C39C28C6EFA900A6CD71 /* ViewController.swift in Sources */,
 				3D76C39828C6EFA900A6CD71 /* AppDelegate.swift in Sources */,
+				3D76C3AE28C6EFB300A6CD71 /* KYActiveLabel.swift in Sources */,
 				3D76C39A28C6EFA900A6CD71 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
